@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="aspecto.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <div class = "encabezado">
+            <h1 class = "titulo">Lista de Tareas</h1>
+            <input class = "txtTarea" type="text" name="" id="MiTarea" placeholder="Tarea pendiente...">
+            <button class = "btnAdd" onclick="AgregarTarea()">+</button>
+        </div>
+        
+    
+        <div class = "listas">
+            <ul class = 'luTareas' id="MiLista" ></ul>
+        </div>
+    
+
+    </div>
+   <script src="controlador.js"></script>
+</body>
+</html>
